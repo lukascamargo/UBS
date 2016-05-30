@@ -1,0 +1,19 @@
+package senac.edu.br.UBS.usuarios;
+import java.util.ArrayList;
+
+public class Usuario {
+	protected String nome;
+	private String login;
+	private String senha;
+	protected int idade;	
+	protected String telefone;
+	protected String email;
+	protected String posicao;
+	
+	public void setLogin(String loginRecebido){
+		loginRecebido = this.login;
+	}
+	public void setSenha(String senhaRecebida){
+		senhaRecebida = this.senha;
+	}
+}

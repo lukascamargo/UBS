@@ -1,0 +1,62 @@
+package senac.edu.br.UBS.usuarios;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.PrintWriter;
+import com.thoughtworks.xstream.XStream;
+import com.thoughtworks.xstream.io.xml.DomDriver;
+
+
+public class DefinirUsuario {
+
+	public static void main(String[] args) {
+		Usuario paciente1 = new Usuario();
+		paciente1.nome = "Lukas Fialho Rezende de Camargo";
+		paciente1.setLogin("lukasfialho");
+		paciente1.setSenha("1234567");
+		paciente1.email = "lukas.fialho@gmail.com";
+		paciente1.idade = 21;
+		paciente1.posicao = "paciente";
+		paciente1.telefone = "964383728";
+		
+		Usuario paciente2 = new Usuario();
+		paciente2.nome = "Kathleen Rocha Santos";
+		paciente2.setLogin("kaathrocha");
+		paciente2.setSenha("1234567");
+		paciente2.email = "kathleen.rocha@hotmail.com";
+		paciente2.idade = 21;
+		paciente2.posicao = "paciente";
+		paciente2.telefone = "99999-9999";
+		
+		
+		XStream xstream = new XStream(new DomDriver());
+		xstream.alias("usuario", Usuario.class);
+		String xml = xstream.toXML(paciente1);
+		//String xml2 = xstream.toXML(paciente2);
+		geraArquivo(xml);
+		System.out.println(xml);
+		
+		
+		
+	}
+	public static void geraArquivo(String xml){
+		PrintWriter print = null;
+		//try {
+			File file = new File("C:\\Users\\Lukas\\Documents\\GitHub\\UBS\\UBS\\src\\senac\\edu\\br\\UBS\\usuarios\\usuarios.xml");
+			try {
+				print = new PrintWriter(file);
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			}
+			
+			print.write(xml);
+			print.flush();
+			print.close();
+		//} catch (FileNotFoundException ex) {
+		//	Logger.getLogger(XStreamMain.class.getName()).log(Level.SEVERE, null, ex);
+		//} finally {
+		//	print.close();
+		//}
+	}
+
+}

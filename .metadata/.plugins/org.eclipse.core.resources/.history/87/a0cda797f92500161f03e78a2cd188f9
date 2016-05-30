@@ -1,0 +1,21 @@
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+
+public class Book {
+	@XStreamAlias("title")
+	public String title;
+	@XStreamAlias("author")
+	public String author;
+	@XStreamAlias("pagesCount")
+	public int pagesCount;
+	
+	public Book(String a, String b, int c){
+		a = title;
+		b = this.author;
+		c = this.pagesCount;
+	}
+	
+	public String toString(){
+		return "Book [title= " + title + ", author= " + author + "]";
+		
+	}
+}

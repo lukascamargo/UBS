@@ -1,0 +1,10 @@
+package senac.edu.br.UBS.usuarios;
+
+public class Usuario {
+	String nome;
+	String login;
+	String senha;
+	int idade;	
+	String telefone;
+	String email;
+}

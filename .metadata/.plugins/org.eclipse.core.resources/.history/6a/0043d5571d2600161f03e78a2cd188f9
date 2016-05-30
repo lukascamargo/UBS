@@ -1,0 +1,8 @@
+package senac.edu.br.UBS.logonSession;
+import java.util.Scanner;
+import senac.edu.br.UBS.usuarios.*;
+
+public class LogarPaciente {
+	Scanner leitor = new Scanner(System.in);
+	
+}

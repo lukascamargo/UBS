@@ -1,0 +1,10 @@
+package senac.edu.br.UBS.usuarios;
+
+public class DefinirUsuario {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

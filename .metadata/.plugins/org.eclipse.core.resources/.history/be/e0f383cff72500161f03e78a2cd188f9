@@ -1,0 +1,10 @@
+import com.thoughtworks.xstream.XStream;
+
+public class XStreamMain {
+	public static void main(String[] args){
+		Book lukas = new Book("Livro do Lukas", "Lukas Fialho", 15);
+		XStream xstream = new XStream();
+		xstream.alias("book", Book.class);
+		System.out.println(xstream.toXML(lukas));
+	}
+}

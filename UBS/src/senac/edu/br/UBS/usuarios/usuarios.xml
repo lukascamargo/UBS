@@ -1,0 +1,62 @@
+<list>
+  <usuario>
+    <nome>Lukas Fialho</nome>
+    <idade>21</idade>
+    <telefone>964383728</telefone>
+    <posicao>paciente</posicao>
+  </usuario>
+  <usuario>
+    <nome>Kathleen Rocha</nome>
+    <idade>21</idade>
+    <telefone>99999-9999</telefone>
+    <posicao>paciente</posicao>
+  </usuario>
+  <usuario>
+    <nome>Alex Fialho</nome>
+    <idade>30</idade>
+    <telefone>99999-9999</telefone>
+    <posicao>paciente</posicao>
+  </usuario>
+  <usuario>
+    <nome>João da Silva</nome>
+    <idade>30</idade>
+    <telefone>99999-9999</telefone>
+    <posicao>enfermeiro</posicao>
+  </usuario>
+  <usuario>
+    <nome>Adalto Santos</nome>
+    <idade>30</idade>
+    <telefone>99999-9999</telefone>
+    <posicao>enfermeiro</posicao>
+  </usuario>
+  <usuario>
+    <nome>Ana Souza</nome>
+    <idade>30</idade>
+    <telefone>99999-9999</telefone>
+    <posicao>enfermeiro</posicao>
+  </usuario>
+  <usuario>
+    <nome>Roberto Maddi</nome>
+    <idade>30</idade>
+    <telefone>99999-9999</telefone>
+    <posicao>medico</posicao>
+  </usuario>
+  <usuario>
+    <nome>Maria Maddi</nome>
+    <idade>30</idade>
+    <telefone>99999-9999</telefone>
+    <posicao>medico</posicao>
+  </usuario>
+  <usuario>
+    <nome>Beatriz Ribeiro</nome>
+    <idade>30</idade>
+    <telefone>99999-9999</telefone>
+    <posicao>dentista</posicao>
+  </usuario>
+  <usuario>
+    <nome>Alessandra Trindade</nome>
+    <idade>30</idade>
+    <telefone>99999-9999</telefone>
+    <posicao>dentista</posicao>
+  </usuario>
+</list>
