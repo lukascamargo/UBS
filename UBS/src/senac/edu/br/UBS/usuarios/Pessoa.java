@@ -1,21 +1,16 @@
 package senac.edu.br.UBS.usuarios;
-import java.util.ArrayList;
-import java.util.List;
 
-public class Usuario{
+
+public abstract class Pessoa{
 	
 	protected String nome;
+	protected String sobrenome;
 	private String login;
 	private String senha;
-	protected int idade;	
-	protected String telefone;
-	protected String posicao;
 	
-	public Usuario(String name, int age, String phone, String position){
+	public Pessoa(String name, String lastName){
 		this.nome = name;
-		this.idade = age;
-		this.telefone = phone;
-		this.posicao = position;
+		this.sobrenome = lastName;
 	}
 	
 	public void setLogin(String loginRecebido){

@@ -1,62 +1,56 @@
 <list>
-  <usuario>
-    <nome>Lukas Fialho</nome>
-    <idade>21</idade>
-    <telefone>964383728</telefone>
-    <posicao>paciente</posicao>
-  </usuario>
-  <usuario>
-    <nome>Kathleen Rocha</nome>
-    <idade>21</idade>
-    <telefone>99999-9999</telefone>
-    <posicao>paciente</posicao>
-  </usuario>
-  <usuario>
-    <nome>Alex Fialho</nome>
-    <idade>30</idade>
-    <telefone>99999-9999</telefone>
-    <posicao>paciente</posicao>
-  </usuario>
-  <usuario>
-    <nome>João da Silva</nome>
-    <idade>30</idade>
-    <telefone>99999-9999</telefone>
-    <posicao>enfermeiro</posicao>
-  </usuario>
-  <usuario>
-    <nome>Adalto Santos</nome>
-    <idade>30</idade>
-    <telefone>99999-9999</telefone>
-    <posicao>enfermeiro</posicao>
-  </usuario>
-  <usuario>
-    <nome>Ana Souza</nome>
-    <idade>30</idade>
-    <telefone>99999-9999</telefone>
-    <posicao>enfermeiro</posicao>
-  </usuario>
-  <usuario>
-    <nome>Roberto Maddi</nome>
-    <idade>30</idade>
-    <telefone>99999-9999</telefone>
-    <posicao>medico</posicao>
-  </usuario>
-  <usuario>
-    <nome>Maria Maddi</nome>
-    <idade>30</idade>
-    <telefone>99999-9999</telefone>
-    <posicao>medico</posicao>
-  </usuario>
-  <usuario>
-    <nome>Beatriz Ribeiro</nome>
-    <idade>30</idade>
-    <telefone>99999-9999</telefone>
-    <posicao>dentista</posicao>
-  </usuario>
-  <usuario>
-    <nome>Alessandra Trindade</nome>
-    <idade>30</idade>
-    <telefone>99999-9999</telefone>
-    <posicao>dentista</posicao>
-  </usuario>
+  <senac.edu.br.UBS.usuarios.Paciente>
+    <nome>Lukas</nome>
+    <sobrenome>Fialho</sobrenome>
+  </senac.edu.br.UBS.usuarios.Paciente>
+  <senac.edu.br.UBS.usuarios.Paciente>
+    <nome>Kathleen</nome>
+    <sobrenome>Rocha</sobrenome>
+  </senac.edu.br.UBS.usuarios.Paciente>
+  <senac.edu.br.UBS.usuarios.Paciente>
+    <nome>Alex</nome>
+    <sobrenome>Fialho</sobrenome>
+  </senac.edu.br.UBS.usuarios.Paciente>
+  <senac.edu.br.UBS.usuarios.Funcionario>
+    <nome>João</nome>
+    <sobrenome>da Silva</sobrenome>
+    <cargo>Enfermeiro</cargo>
+    <documentoProfissional>9999999999</documentoProfissional>
+  </senac.edu.br.UBS.usuarios.Funcionario>
+  <senac.edu.br.UBS.usuarios.Funcionario>
+    <nome>Adalto</nome>
+    <sobrenome>Santos</sobrenome>
+    <cargo>Enfermeiro</cargo>
+    <documentoProfissional>9999999999</documentoProfissional>
+  </senac.edu.br.UBS.usuarios.Funcionario>
+  <senac.edu.br.UBS.usuarios.Funcionario>
+    <nome>Ana</nome>
+    <sobrenome>Souza</sobrenome>
+    <cargo>Enfermeiro</cargo>
+    <documentoProfissional>9999999</documentoProfissional>
+  </senac.edu.br.UBS.usuarios.Funcionario>
+  <senac.edu.br.UBS.usuarios.Funcionario>
+    <nome>Roberto</nome>
+    <sobrenome>Maddi</sobrenome>
+    <cargo>Medico</cargo>
+    <documentoProfissional>9999999</documentoProfissional>
+  </senac.edu.br.UBS.usuarios.Funcionario>
+  <senac.edu.br.UBS.usuarios.Funcionario>
+    <nome>Maria</nome>
+    <sobrenome>Maddi</sobrenome>
+    <cargo>Medico</cargo>
+    <documentoProfissional>9999999</documentoProfissional>
+  </senac.edu.br.UBS.usuarios.Funcionario>
+  <senac.edu.br.UBS.usuarios.Funcionario>
+    <nome>Beatriz</nome>
+    <sobrenome>Ribeiro</sobrenome>
+    <cargo>Dentista</cargo>
+    <documentoProfissional>999999</documentoProfissional>
+  </senac.edu.br.UBS.usuarios.Funcionario>
+  <senac.edu.br.UBS.usuarios.Funcionario>
+    <nome>Alessandra</nome>
+    <sobrenome>Trindade</sobrenome>
+    <cargo>Dentista</cargo>
+    <documentoProfissional>999999</documentoProfissional>
+  </senac.edu.br.UBS.usuarios.Funcionario>
 </list>
