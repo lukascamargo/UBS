@@ -2,54 +2,77 @@
   <senac.edu.br.UBS.usuarios.Paciente>
     <nome>Lukas</nome>
     <sobrenome>Fialho</sobrenome>
+    <login>lukasfialho</login>
+    <senha>1234567</senha>
+    <cargo>Paciente</cargo>
   </senac.edu.br.UBS.usuarios.Paciente>
   <senac.edu.br.UBS.usuarios.Paciente>
     <nome>Kathleen</nome>
     <sobrenome>Rocha</sobrenome>
+    <login>kaathrocha</login>
+    <senha>1234567</senha>
+    <cargo>Paciente</cargo>
   </senac.edu.br.UBS.usuarios.Paciente>
   <senac.edu.br.UBS.usuarios.Paciente>
     <nome>Alex</nome>
     <sobrenome>Fialho</sobrenome>
+    <login>alexfialho</login>
+    <senha>1234567</senha>
+    <cargo>Paciente</cargo>
   </senac.edu.br.UBS.usuarios.Paciente>
   <senac.edu.br.UBS.usuarios.Funcionario>
     <nome>João</nome>
     <sobrenome>da Silva</sobrenome>
+    <login>joaosilva</login>
+    <senha>123456789</senha>
     <cargo>Enfermeiro</cargo>
     <documentoProfissional>9999999999</documentoProfissional>
   </senac.edu.br.UBS.usuarios.Funcionario>
   <senac.edu.br.UBS.usuarios.Funcionario>
     <nome>Adalto</nome>
     <sobrenome>Santos</sobrenome>
+    <login>adaltosantos</login>
+    <senha>123456789</senha>
     <cargo>Enfermeiro</cargo>
     <documentoProfissional>9999999999</documentoProfissional>
   </senac.edu.br.UBS.usuarios.Funcionario>
   <senac.edu.br.UBS.usuarios.Funcionario>
     <nome>Ana</nome>
     <sobrenome>Souza</sobrenome>
+    <login>anasouza</login>
+    <senha>123456789</senha>
     <cargo>Enfermeiro</cargo>
     <documentoProfissional>9999999</documentoProfissional>
   </senac.edu.br.UBS.usuarios.Funcionario>
   <senac.edu.br.UBS.usuarios.Funcionario>
     <nome>Roberto</nome>
     <sobrenome>Maddi</sobrenome>
+    <login>robertomaddi</login>
+    <senha>12345</senha>
     <cargo>Medico</cargo>
     <documentoProfissional>9999999</documentoProfissional>
   </senac.edu.br.UBS.usuarios.Funcionario>
   <senac.edu.br.UBS.usuarios.Funcionario>
     <nome>Maria</nome>
     <sobrenome>Maddi</sobrenome>
+    <login>mariamaddi</login>
+    <senha>12345</senha>
     <cargo>Medico</cargo>
     <documentoProfissional>9999999</documentoProfissional>
   </senac.edu.br.UBS.usuarios.Funcionario>
   <senac.edu.br.UBS.usuarios.Funcionario>
     <nome>Beatriz</nome>
     <sobrenome>Ribeiro</sobrenome>
+    <login>beatrizribeiro</login>
+    <senha>12345senha</senha>
     <cargo>Dentista</cargo>
     <documentoProfissional>999999</documentoProfissional>
   </senac.edu.br.UBS.usuarios.Funcionario>
   <senac.edu.br.UBS.usuarios.Funcionario>
     <nome>Alessandra</nome>
     <sobrenome>Trindade</sobrenome>
+    <login>alexandretrindade</login>
+    <senha>12345senha</senha>
     <cargo>Dentista</cargo>
     <documentoProfissional>999999</documentoProfissional>
   </senac.edu.br.UBS.usuarios.Funcionario>

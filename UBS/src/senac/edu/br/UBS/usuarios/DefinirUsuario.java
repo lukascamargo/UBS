@@ -17,45 +17,45 @@ public class DefinirUsuario {
 		ArrayList<Pessoa> usuarios = new ArrayList<Pessoa>();
 
 		
-		Paciente paciente1 = new Paciente("Lukas", "Fialho");
+		Paciente paciente1 = new Paciente("Lukas", "Fialho", "Paciente");
 		paciente1.setLogin("lukasfialho");
 		paciente1.setSenha("1234567");
 		
-		Paciente paciente2 = new Paciente("Kathleen", "Rocha");
+		Paciente paciente2 = new Paciente("Kathleen", "Rocha", "Paciente");
 		paciente2.setLogin("kaathrocha");
 		paciente2.setSenha("1234567");
 		
-		Paciente paciente3 = new Paciente("Alex", "Fialho");
+		Paciente paciente3 = new Paciente("Alex", "Fialho", "Paciente");
 		paciente3.setLogin("alexfialho");
 		paciente3.setSenha("1234567");
 		
 		Funcionario enfermeiro1 = new Funcionario("João", "da Silva", "Enfermeiro", "9999999999");
-		paciente3.setLogin("joaosilva");
-		paciente3.setSenha("123456789");
+		enfermeiro1.setLogin("joaosilva");
+		enfermeiro1.setSenha("123456789");
 		
 		Funcionario enfermeiro2 = new Funcionario("Adalto", "Santos", "Enfermeiro", "9999999999");
-		paciente3.setLogin("adaltosantos");
-		paciente3.setSenha("123456789");
+		enfermeiro2.setLogin("adaltosantos");
+		enfermeiro2.setSenha("123456789");
 		
 		Funcionario enfermeiro3 = new Funcionario("Ana", "Souza", "Enfermeiro", "9999999");
-		paciente3.setLogin("anasouza");
-		paciente3.setSenha("123456789");
+		enfermeiro3.setLogin("anasouza");
+		enfermeiro3.setSenha("123456789");
 		
 		Funcionario medico1 = new Funcionario("Roberto", "Maddi", "Medico", "9999999");
-		paciente3.setLogin("robertomaddi");
-		paciente3.setSenha("12345");
+		medico1.setLogin("robertomaddi");
+		medico1.setSenha("12345");
 		
 		Funcionario medico2 = new Funcionario("Maria", "Maddi", "Medico", "9999999");
-		paciente3.setLogin("mariamaddi");
-		paciente3.setSenha("12345");
+		medico2.setLogin("mariamaddi");
+		medico2.setSenha("12345");
 		
 		Funcionario dentista1 = new Funcionario("Beatriz", "Ribeiro", "Dentista", "999999");
-		paciente3.setLogin("beatrizribeiro");
-		paciente3.setSenha("12345senha");
+		dentista1.setLogin("beatrizribeiro");
+		dentista1.setSenha("12345senha");
 		
 		Funcionario dentista2 = new Funcionario("Alessandra", "Trindade", "Dentista", "999999");
-		paciente3.setLogin("alexandretrindade");
-		paciente3.setSenha("12345senha");
+		dentista2.setLogin("alexandretrindade");
+		dentista2.setSenha("12345senha");
 		
 		usuarios.add(paciente1);
 		usuarios.add(paciente2);
@@ -72,12 +72,9 @@ public class DefinirUsuario {
 		XStream xstream = new XStream(new DomDriver());
 		xstream.alias("pessoa", Pessoa.class);
 		String xml = xstream.toXML(usuarios);
-		String xml2 = xstream.toXML(paciente2);
 		geraArquivo(xml);
 		
 		System.out.println(xml);
-		
-		
 	}
 	public static void geraArquivo(String xml){
 		PrintWriter print = null;
